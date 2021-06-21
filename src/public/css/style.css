@@ -1,10 +1,100 @@
-#video-grid {
-    display: flex;
-    justify-content: center;
+
+.content{
+    margin: 2% 2%;
+    border: 2px solid #6200ff;
+    border-radius: 20px;
 }
 
-video{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(2.jpg);
+    height: 100vh;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.header img{
+    width: 200px;
+    height: 200px;
+}
+
+.header h1{
+    padding-top: 10%;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+}
+.header p{
+    text-align: center;
+}
+
+.bodyllamada{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bodyllamada video{
+    width: 500px;
     height: 300px;
-    width: 400px;
-    object-fit: cover;
+    border-radius: 10%;
+}
+
+.video1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.table-responsive{
+    width: 80%;
+    margin:3% 10%;
+}
+
+.histitle{
+    font-size: 1.5rem;
+    margin:3% 10%;
+}
+table {
+    border-collapse: collapse;
+    border-bottom: 2px solid #6200ff;
+    
+}
+
+thead tr {
+    border-bottom: 2px solid #6200ff;
+    height: 50px;
+}
+
+thead td {
+    font-weight: 700;
+    background: #6200ff;
+    color: #fff;
+    height: 50px;
+}
+
+span.end{
+    color: #0051ff;
+}
+
+td {
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    color: rgb(34, 34, 34);
+    height: 50px;
+    background: white;
+}
+
+td input{
+    border-color: transparent;
+    max-width: 600px;
+    min-width: 300px;
+    color: #6200ff;
 }
