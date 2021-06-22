@@ -3,6 +3,7 @@
     margin: 2% 2%;
     border: 2px solid #6200ff;
     border-radius: 20px;
+    
 }
 
 *{
@@ -10,8 +11,12 @@
     padding: 0;
 }
 
+#recetas{
+    margin:3% 10%;
+}
+
 body{
-    background: url(2.jpg);
+    background: url(/2.jpg);
     height: 100vh;
     
 }
@@ -48,6 +53,10 @@ body{
     border-radius: 10%;
 }
 
+.infollamada h1{
+    margin: 2% 10%;
+}
+
 .video1{
     text-align: center;
     padding: 20px 0;
@@ -55,13 +64,9 @@ body{
 
 .table-responsive{
     width: 80%;
-    margin:3% 10%;
+    margin:2% 10%;
 }
 
-.histitle{
-    font-size: 1.5rem;
-    margin:3% 10%;
-}
 table {
     border-collapse: collapse;
     border-bottom: 2px solid #6200ff;
@@ -89,7 +94,6 @@ td {
     font-size: .9rem;
     color: rgb(34, 34, 34);
     height: 50px;
-    background: white;
 }
 
 td input{
@@ -97,4 +101,347 @@ td input{
     max-width: 600px;
     min-width: 300px;
     color: #6200ff;
+}
+
+.histitle{
+    padding: 80px 0 30px 0;
+}
+.contentreceta{
+    border-radius: 20px;
+    border: 2px solid #6200ff;
+    width: 100%;
+}
+
+.recetahead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recetahead img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.recetahead .img2 img{
+    padding: 30px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo h1{
+    margin-top: 50px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'cursiva';
+    
+}
+
+.titulo p{
+    font-size: 1.5rem;
+}
+
+.recetahead2{
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px;
+    font-size: 1.3rem;
+}
+
+.barrasep{
+    margin-left: 2%;
+    width: 96%;
+    height: 5px;
+    background: linear-gradient(to left,rgb(162, 0, 255),rgb(0, 183, 255),rgb(162, 0, 255));
+
+}
+
+.recetabody{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px;
+    font-size: 1.3rem;
+    
+}
+
+.contentbody{
+    margin-top: 50px;
+    min-height: 200px;
+    font-size: 1.3rem;
+    padding:0 30px;
+}
+
+.recetafot{
+    font-size: 1.3rem;
+    padding:0 30px;
+    text-align: right;
+}
+
+.contentbody li{
+    list-style:circle ;
+}
+
+
+
+
+@media only screen and (max-width: 1280px) {
+    
+    .header{
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bodyllamada{
+        display: inline-block;
+        justify-content: center;
+    }
+    .bodyllamada video{
+        width: 350px;
+        height: 150px;
+        border-radius: 10%;
+    }
+
+    .histitle{
+        font-size: 0.8rem;
+        margin:3% 5%;
+    }
+
+    .recetahead{
+        display: inline-block;
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    
+    .titulo h1{
+        margin-top: 50px;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'cursiva';
+        
+    }
+    .recetahead2{
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+    }
+    .recetahead img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 30px;
+    }
+    .recetabody{
+        margin-top: 20px;
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+        
+    }
+    .table-responsive{
+        margin:2% 0%;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .header{
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bodyllamada{
+        display: inline-block;
+        justify-content: center;
+    }
+    .bodyllamada video{
+        width: 350px;
+        height: 150px;
+        border-radius: 10%;
+    }
+
+    .histitle{
+        font-size: 0.8rem;
+        margin:3% 5%;
+    }
+
+    .recetahead{
+        display: inline-block;
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    
+    .titulo h1{
+        margin-top: 50px;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'cursiva';
+        
+    }
+    .recetahead2{
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+    }
+    .recetahead img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 30px;
+    }
+    .recetabody{
+        margin-top: 20px;
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+        
+    }
+    .table-responsive{
+        margin:2% 0%;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .header{
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bodyllamada{
+        display: inline-block;
+        justify-content: center;
+    }
+    .bodyllamada video{
+        width: 350px;
+        height: 150px;
+        border-radius: 10%;
+    }
+
+    .histitle{
+        font-size: 0.8rem;
+        margin:3% 5%;
+    }
+
+    .recetahead{
+        display: inline-block;
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    
+    .titulo h1{
+        margin-top: 50px;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'cursiva';
+        
+    }
+    .recetahead2{
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+    }
+    .recetahead img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 30px;
+    }
+    .recetabody{
+        margin-top: 20px;
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+        
+    }
+    .table-responsive{
+        margin:2% 0%;
+    }
+    
+    
+}
+@media only screen and (max-width: 580px) {
+    
+    .header{
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bodyllamada{
+        display: inline-block;
+        justify-content: center;
+    }
+    .bodyllamada video{
+        width: 350px;
+        height: 150px;
+        border-radius: 10%;
+    }
+
+    .histitle{
+        font-size: 0.8rem;
+        margin:3% 5%;
+    }
+
+    .recetahead{
+        display: inline-block;
+        justify-content: center;
+    }
+    .titulo{
+        text-align: center;
+    }
+    
+    .titulo h1{
+        margin-top: 50px;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'cursiva';
+        
+    }
+    .recetahead2{
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+    }
+    .recetahead img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 30px;
+    }
+    .recetabody{
+        margin-top: 20px;
+        display: inline-block;
+        justify-content: center;
+        padding:0 30px;
+        font-size: 1.3rem;
+        
+    }
+    
+    .table-responsive{
+        max-width: 800px;
+        margin-left: 0%;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 300px) {
+    
+    
 }
