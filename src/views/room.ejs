@@ -21,14 +21,14 @@
         <main>
         <div class="header">
             <div class="img1">
-                <img src="img1.png" alt="">
+                <img src="/img/1.jpg" alt="">
             </div>
             <div class="titulo">
                 <h1>Video Llamada Clinica Star</h1>
                 <p>Doctor Brayan de jesus capetillo Macias</p>
             </div>
             <div class="img2">
-                <img src="img2.jfif" alt="">
+                <img src="/img/img2.jfif" alt="">
             </div>
         </div>
         <div class="bodyllamada" id="video-grid">
@@ -37,7 +37,7 @@
                     <h2>Dr. brayan capetillo Macias</h2>
                 </div>
                 <div class="video1">
-                    <video src="trabajo.mp4"></video>
+                    <video src=""></video>
                     <h2>Paciente Gerardo Martinez</h2>
                 </div> -->
         </div>
@@ -77,6 +77,43 @@
 
             </div>
         </div>
+
+        <section class="resultados">
+            <div class="histitle">
+                <h1>Receta</h1>
+            </div>
+            <div class="contentreceta">
+                
+                <div class="recetabody">
+                    <div>
+                        Nombre del paciente: {{dataPatient .name + " " + dataPatient. surnames}}
+                    </div>
+                    <div>
+                        Edad : {{dataPatient.age}} años
+                    </div>
+
+                </div>
+                <div class="contentbody">
+
+                    Resultados:
+                    <form action="">
+                    <div class="medicamentos">
+                        <input type="text" placeholder="Escriba aqui">
+                        <input type="submit" value="Enviar Resultados">
+                    </div>
+                    </form>
+
+
+                </div>
+                
+
+
+            </div>
+
+        </section>
+
+
+
         <section id="recetas">
                 <div class="histitle">
                     <h1>Receta</h1>
@@ -84,14 +121,14 @@
                 <div class="contentreceta">
                     <div class="recetahead">
                         <div class="img1">
-                            <img src="assets/img1.png" alt="">
+                            <img src="/img/img1.png" alt="">
                         </div>
                         <div class="titulo">
                             <h1>{{infoDoc.username}}</h1>
                             <p>{{infoDoc.type}}</p>
                         </div>
                         <div class="img2">
-                            <img src="assets/img2.jfif" alt="">
+                            <img src="/img/img2.jfif" alt="">
                         </div>
                     </div>
                     <div class="recetahead2">
@@ -124,9 +161,13 @@
                     <div class="contentbody">
 
                         Medicamento(s):
-                        <ul>
-                            <li *ngFor="let med of medicine; index as i">{{med}}</li>
-                        </ul>
+                        <form action="">
+                        <div class="medicamentos">
+                            <input type="text" placeholder="Escriba aqui">
+                            <input type="submit" value="Enviar Receta">
+                        </div>
+                        </form>
+
 
                     </div>
                     <div class="barrasep"></div>
